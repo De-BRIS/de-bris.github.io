@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar {
+    font-family: 'Red Hat Text', sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 4px 3px 8px 1px rgb(175,175,175);
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: -2.5rem;
+    margin: -.5rem;
+    margin-left: 30px;
+}
+
+.sections {
+    height: 100%;
+}
+
+.sections ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.sections li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.sections li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+#current_section {
+    color: rgb(90, 90, 90);
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.6rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3.5px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.hello span {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.about {
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
+
+.connect_with_me {
+    font-family: 'Red Hat Text', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia a {
+    margin: 25px;
+}
+
+.youtube, .twitter, .discord {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: black;
+}
+
+.section2 {
+    padding-top: 0px;
+}
+
+.header {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 35px;
+}
+
+#aicon, #isicon, #bnicon {
+
+    display: block; 
+    margin: auto;
+}
+
+.articles {
+    padding-top: 200px;
+}
+
+.articles, .book-notes, .idea-snippets {
+    text-align: center;
+}
+
+.book-notes, .idea-snippets {
+    padding-top: 150px;
+}
+
+.text {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+}
+
+.latest {
+    color: rgb(90, 90, 90);
+}
+
+.pagelink {
+    color: rgb(90, 90, 90);
+}
+
+.section3 {
+    padding-top: 180px;
+}
+
+.mailheader {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.mailtext {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+#formname {
+    margin: 0 auto;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    display: block;
+    border-width: 0.5px;
+    border-style: solid, black;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#formemail {
+    margin-top: 15px;
+    margin: 0 auto;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    display: block;
+    border-width: 0.5px;
+    border-style: solid, black;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#formmessage {
+    margin: 0 auto;
+    outline: none;
+    font-size: 14px;
+    display: block;
+    border-width: 0.5px;
+    border-style: solid, black;
+    padding-bottom: 100px;
+    resize: none;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#formsubmit {
+    margin: 0 auto;
+    height: 50px;
+    width: 187px;
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Noto Serif', serif;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    display: grid;
+    font-size: 16px;
+    font-family: 'Red Hat Text', sans-serif;
+    background-color: rgb(240, 240, 240);
+    -moz-box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
+    box-shadow: 0 -3px 6px rgb(175,175,175);
+    height: 50px;
+    margin-top: 70px;
+}
+
+.copyright {
+    margin: auto;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 800px) {
+    .sections li a:hover {
+        color: #32B4FF;
+        transition: 0.3s all;
+    }
+
+    .hello span:hover {
+        text-decoration: underline;
+        cursor: context-menu;
+    }
+
+    .about span:hover {
+        cursor: context-menu;
+    }
+
+    .connect_with_me span:hover {
+        text-decoration: underline;
+        cursor: context-menu;
+    }
+
+    #youtubeicon:hover {
+        fill: red;
+        transition: 0.3s all;
+    }
+
+    #twittericon:hover {
+        fill: rgb(29, 161, 242);
+        transition: 0.3s all;
+    }
+    
+    #discordicon:hover {
+        fill: rgb(64, 78, 237);
+        transition: 0.3s all;
+    }
+
+    .header span:hover {
+        text-decoration: underline;
+        cursor: context-menu;
+    }
+
+    .latest:hover, .pagelink:hover {
+        color: #32B4FF;
+        transition: 0.3s all;
+    }
+
+    .mailheader span:hover {
+        text-decoration: underline;
+        cursor: context-menu;
+    }
+
+    #formsubmit:hover {
+        background-color: #32B4FF;
+        color: black;
+        transition: linear, 0.3s all;
+    }
+}
+
+@media (min-width: 1700px) {
+    .text {
+        font-size: 30px;
+    }
+
+    .articles {
+        padding-top: 550px;
+    }
+
+    .connect_with_me {
+        font-size: 30px;
+        padding-top: 220px;
+    }
+
+    .socialmedia span {
+        font-size: 25px;
+    }
+
+    #youtubeicon, #twittericon, #discordicon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mailtext {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section3 {
+        padding-top: 500px;
+        padding-bottom: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .mailtext {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    #formname, #formemail, #formmessage {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 700px) {
+    .connect_with_me {
+        padding-top: 280px;
+    }
+
+    .section2 {
+        padding-top: 240px;
+    }
+
+    .text {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .mailtext {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #formname, #formemail, #formmessage {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .toggle-button {
+    display: flex;
+    }
+
+    .logo {
+    margin-left: 15px;
+    }
+
+    .sections {
+    display: none;
+    width: 100%;
+    }
+
+    .sections ul {
+    width: 100%;
+    flex-direction: column;
+    }
+
+    .sections ul li {
+    background-color: rgb(243, 243, 243);
+    text-align: right;
+    }
+
+    .sections ul li a {
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: 0px;
+    transition: step-start, 0.3s all;
+    }
+
+    .sections.active {
+    display: flex;
+    }
+
+    .about {
+        font-size: 40px;
+    }
+
+    #youtubeicon {
+        fill: red;
+        transition: 0.3s all;
+    }
+
+    #twittericon {
+        fill: rgb(29, 161, 242);
+        transition: 0.3s all;
+    }
+    
+    #discordicon {
+        fill: rgb(64, 78, 237);
+        transition: 0.3s all;
+    }
+}
+
+@media (max-width: 700px) {
+    #formname, #formemail {
+        width: 90vw;
+    }
+
+    #formmessage {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .about {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 300px) {
+    .youtube span, .twitter span, .discord span {
+        font-size: 12px;
+    }
+
+    #youtubeicon, #twittericon, #discordicon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .socialmedia a {
+        margin: 10px;
+    }
+
+    .logo {
+        margin-left: 2px;
+    }
+}
