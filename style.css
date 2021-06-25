@@ -316,13 +316,7 @@ form {
         color: black;
         transition: linear, 0.3s all;
     }
-}
-
-@media (max-width: 900px) {
-    .connect_with_me {
-        padding-top: 80px;   
-    }    
-}    
+}  
 
 @media (min-width: 1700px) {
     .text {
@@ -376,7 +370,7 @@ form {
 
 @media (max-width: 1024px) and (min-width: 700px) {
     .connect_with_me {
-        padding-top: 180px;
+        padding-top: 120px;
     }
 
     .section2 {
