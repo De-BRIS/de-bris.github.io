@@ -181,9 +181,7 @@ body {
 .mailtext {
     font-family: 'Noto Serif', serif;
     font-size: 18px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
+    text-align: center;
     padding-top: 0px;
 }
 
