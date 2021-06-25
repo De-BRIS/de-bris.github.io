@@ -318,7 +318,7 @@ form {
     }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
     .connect_with_me {
         padding-top: 80px;   
     }    
