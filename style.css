@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -114,12 +118,19 @@ body {
     margin: 25px;
 }
 
-.youtube, .twitter, .discord {
+.youtube, .twitter, .mailicon {
     display: flex;
     flex-direction: column;
     font-family: 'Noto Serif', serif;
     text-decoration: none;
     color: black;
+}
+
+.mailicon {
+    margin: 25px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
 }
 
 .section2 {
@@ -164,7 +175,7 @@ body {
     color: rgb(90, 90, 90);
 }
 
-.section3 {
+#section3 {
     padding-top: 180px;
 }
 
@@ -285,8 +296,8 @@ form {
         transition: 0.3s all;
     }
     
-    #discordicon:hover {
-        fill: rgb(64, 78, 237);
+    #mailicon:hover {
+        fill: #ff8533;
         transition: 0.3s all;
     }
 
@@ -368,7 +379,7 @@ form {
     }
 
     .section2 {
-        padding-top: 240px;
+        padding-top: 80px;
     }
 
     .text {
@@ -440,8 +451,8 @@ form {
         transition: 0.3s all;
     }
     
-    #discordicon {
-        fill: rgb(64, 78, 237);
+    #mailicon {
+        fill: #ff8533;
         transition: 0.3s all;
     }
 }
