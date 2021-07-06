@@ -97,8 +97,39 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-.hello span {
+.hello {
     font-family: 'Red Hat Text', sans-serif;
+}
+
+#name {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: context-menu;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#name::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform-origin: 0 100%;
+    transform: scaley(0.05);
+    background: currentColor;
+    mix-blend-mode: difference;
+    transition: transform 0.25s;
+    content: '';
+}
+
+#name:focus {
+    outline: none;
+}
+
+#name:focus::after, #name:hover::after {
+    transform: none;
 }
 
 .connect_with_me {
@@ -112,6 +143,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Serif', serif;
 }
 
 .socialmedia a {
