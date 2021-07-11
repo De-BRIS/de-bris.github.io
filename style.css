@@ -108,6 +108,7 @@ body {
     text-decoration: none;
     cursor: context-menu;
     font-family: 'Red Hat Text', sans-serif;
+    user-select: none;
 }
 
 #name::after {
