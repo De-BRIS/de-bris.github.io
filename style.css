@@ -209,7 +209,7 @@ body {
 }
 
 #section3 {
-    padding-top: 180px;
+    padding-top: 160px;
 }
 
 .mailheader {
@@ -287,7 +287,7 @@ footer {
     -webkit-box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
     box-shadow: 0 -3px 6px rgb(175,175,175);
     height: 50px;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .copyright {
