@@ -175,8 +175,7 @@ body {
     font-size: 35px;
 }
 
-#aicon, #isicon, #bnicon {
-
+#aicon, #isicon, #bnicon
     display: block; 
     margin: auto;
 }
@@ -223,7 +222,7 @@ body {
     font-size: 18px;
     text-align: center;
     padding: 20px;
-    
+    padding-top: 5px;
 }
 
 #formname {
