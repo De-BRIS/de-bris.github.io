@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+::selection {
+  background-color: black;
+  color: white;
+}
+
+br {
+  user-select: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -184,11 +193,11 @@ body {
     padding-top: 200px;
 }
 
-.articles, .book-notes, .idea-snippets {
+.articles, .book-notes, .idea-snippets, .apps {
     text-align: center;
 }
 
-.book-notes, .idea-snippets {
+.book-notes, .idea-snippets, .apps {
     padding-top: 150px;
 }
 
@@ -339,7 +348,7 @@ form {
         cursor: context-menu;
     }
 
-    .latest:hover, .pagelink:hover {
+    .latest:hover, .pagelink:hover, .apps a:hover {
         color: #32B4FF;
         transition: 0.3s all;
     }
