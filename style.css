@@ -497,8 +497,12 @@ form {
         transition: 0.3s all;
     }
     
-    #linktreeicon {
+    #lticon1 {
         fill: #1de9b6;
+    }
+
+    #lticon2 {
+        fill: #26a69a;
     }
 }
 
