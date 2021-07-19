@@ -160,19 +160,12 @@ body {
     margin: 25px;
 }
 
-.youtube, .twitter, .linktreeicon {
+.youtube, .twitter, .linktree {
     display: flex;
     flex-direction: column;
     font-family: 'Noto Serif', serif;
     text-decoration: none;
     color: black;
-}
-
-.linktree {
-    margin: 25px;
-    background-color: white;
-    border: none;
-    cursor: pointer;
 }
 
 .section2 {
@@ -387,7 +380,7 @@ form {
         font-size: 25px;
     }
 
-    #youtubeicon, #twittericon, #lticon1, #lticon2 {
+    #youtubeicon, #twittericon, #lticon {
         width: 100px;
         height: 100px;
     }
@@ -525,11 +518,11 @@ form {
 }
 
 @media (max-width: 300px) {
-    .youtube span, .twitter span, .discord span {
+    .youtube span, .twitter span, .linktree span {
         font-size: 12px;
     }
 
-    #youtubeicon, #twittericon, #discordicon {
+    #youtubeicon, #twittericon, #lticon {
         width: 30px;
         height: 30px;
     }
