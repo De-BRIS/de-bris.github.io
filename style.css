@@ -342,7 +342,7 @@ form {
         transition: 0.3s all;
     }
     
-    #lticon1:hover {
+    #lticon:hover {
         fill: #1de9b6;
         transition: 0.3s all;
     }
@@ -497,11 +497,7 @@ form {
         transition: 0.3s all;
     }
     
-    #lticon1 {
-        fill: #1de9b6;
-    }
-
-    #lticon2 {
+    #lticon {
         fill: #26a69a;
     }
 }
