@@ -160,7 +160,7 @@ body {
     margin: 25px;
 }
 
-.youtube, .twitter, .mailicon {
+.youtube, .twitter, .linktreeicon {
     display: flex;
     flex-direction: column;
     font-family: 'Noto Serif', serif;
@@ -168,7 +168,7 @@ body {
     color: black;
 }
 
-.mailicon {
+.linktree {
     margin: 25px;
     background-color: white;
     border: none;
@@ -343,7 +343,7 @@ form {
     }
     
     #mailicon:hover {
-        fill: #ff8533;
+        fill: #1de9b6;
         transition: 0.3s all;
     }
 
@@ -387,7 +387,7 @@ form {
         font-size: 25px;
     }
 
-    #youtubeicon, #twittericon, #discordicon {
+    #youtubeicon, #twittericon, #linktreeicon {
         width: 100px;
         height: 100px;
     }
@@ -497,9 +497,8 @@ form {
         transition: 0.3s all;
     }
     
-    #mailicon {
-        fill: #ff8533;
-        transition: 0.3s all;
+    #linktreeicon {
+        fill: #1de9b6;
     }
 }
 
